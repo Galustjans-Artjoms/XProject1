@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile - WorkWise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .navbar {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .edit-form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div th:replace="~{fragments/logo :: navbar-logo}"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/departments">Departments</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <form th:action="@{/logout}" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-outline-danger">Logout</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="edit-form">
+            <h2 class="mb-4">Edit Profile</h2>
+            
+            <form th:action="@{/profile/update}" method="post" th:object="${user}" onsubmit="return validateForm()">
+                <!-- Hidden fields for user ID and employee ID -->
+                <input type="hidden" th:field="*{id}" />
+                <input type="hidden" th:field="*{employee.id}" th:if="*{employee != null}" />
+                
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="fullName" class="form-label">Full Name *</label>
+                        <input type="text" class="form-control" id="fullName" 
+                               th:field="*{employee.fullName}" required
+                               pattern=".{2,}" title="Full Name must be at least 2 characters long"
+                               oninput="this.value = this.value.trim()">
+                        <div class="invalid-feedback">
+                            Please enter a valid full name
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" class="form-control" id="email" 
+                               th:field="*{employee.email}" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" 
+                               th:field="*{employee.phone}">
+                    </div>
+                    
+                    <div class="col-md-6 mb-3">
+                        <label for="birthDate" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="birthDate" 
+                               th:field="*{employee.birthDate}"
+                               th:value="${#temporals.format(user.employee.birthDate, 'yyyy-MM-dd')}">
+                    </div>
+                    
+                    <div class="col-md-6 mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" 
+                               th:field="*{employee.address}">
+                    </div>
+                    
+                    <div class="col-md-6 mb-3">
+                        <label for="linkedin" class="form-label">LinkedIn Profile</label>
+                        <input type="url" class="form-control" id="linkedin" 
+                               th:field="*{employee.linkedin}">
+                    </div>
+                    
+                    <div class="col-12 mb-3">
+                        <label for="bio" class="form-label">Bio</label>
+                        <textarea class="form-control" id="bio" rows="3" 
+                                 th:field="*{employee.bio}"></textarea>
+                    </div>
+                </div>
+                
+                <div class="d-flex justify-content-between mt-4">
+                    <a href="/profile" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    function validateForm() {
+        const fullName = document.getElementById('fullName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        
+        if (!fullName || fullName.length < 2) {
+            alert('Full Name must be at least 2 characters long');
+            return false;
+        }
+        
+        if (!email) {
+            alert('Email is required');
+            return false;
+        }
+        
+        return true;
+    }
+    </script>
+</body>
+</html> 

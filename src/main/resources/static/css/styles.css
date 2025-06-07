@@ -1,0 +1,62 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: none;
+    padding-top: 20px;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    border-color: #1877f2;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.btn-primary:hover {
+    background-color: #166fe5;
+    border-color: #166fe5;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px rgba(24,119,242,0.2);
+}
+
+.form-label {
+    font-weight: 500;
+    color: #444;
+} 
