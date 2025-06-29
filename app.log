@@ -1,0 +1,162 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.ludusimperius:WorkWise >---------------------
+[INFO] Building WorkWise 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ WorkWise >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ WorkWise ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 12 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ WorkWise ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ WorkWise ---
+[INFO] skip non existing resourceDirectory /Users/galustjans13/Downloads/WorkWise 2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ WorkWise ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ WorkWise <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ WorkWise ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v3.2.3)[0;39m
+
+[2m2025-06-01T23:20:40.553+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mc.l.workwise.WorkWiseApplication        [0;39m [2m:[0;39m Starting WorkWiseApplication using Java 23.0.2 with PID 6243 (/Users/galustjans13/Downloads/WorkWise 2/target/classes started by galustjans13 in /Users/galustjans13/Downloads/WorkWise 2)
+[2m2025-06-01T23:20:40.554+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mc.l.workwise.WorkWiseApplication        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-06-01T23:20:40.579+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2025-06-01T23:20:40.579+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2025-06-01T23:20:40.730+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-06-01T23:20:40.747+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+[2m2025-06-01T23:20:40.978+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8081 (http)
+[2m2025-06-01T23:20:40.982+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-06-01T23:20:40.982+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2m2025-06-01T23:20:40.996+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-06-01T23:20:40.996+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 417 ms
+[2m2025-06-01T23:20:41.006+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2025-06-01T23:20:41.075+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:workwisedb user=SA
+[2m2025-06-01T23:20:41.076+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2025-06-01T23:20:41.080+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:workwisedb'
+[2m2025-06-01T23:20:41.122+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-06-01T23:20:41.145+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.4.4.Final
+[2m2025-06-01T23:20:41.156+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2025-06-01T23:20:41.246+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-06-01T23:20:41.262+03:00[0;39m [33m WARN[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2m2025-06-01T23:20:41.569+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table departments (id bigint generated by default as identity, name varchar(255) not null, primary key (id))
+Hibernate: create table employees (id bigint generated by default as identity, address varchar(255), birth_date date, email varchar(255), full_name varchar(255) not null, linkedin varchar(255), phone varchar(255), position varchar(255), salary numeric(10,2), department_id bigint, primary key (id))
+Hibernate: create table users (id bigint generated by default as identity, active boolean not null, last_login timestamp(6), password varchar(255) not null, role varchar(255) check (role in ('ADMIN','HR','EMPLOYEE')), temporary_password boolean not null, username varchar(255) not null, primary key (id))
+Hibernate: alter table if exists departments drop constraint if exists UK_j6cwks7xecs5jov19ro8ge3qk
+Hibernate: alter table if exists departments add constraint UK_j6cwks7xecs5jov19ro8ge3qk unique (name)
+Hibernate: alter table if exists users drop constraint if exists UK_r43af9ap4edm43mmtq01oddj6
+Hibernate: alter table if exists users add constraint UK_r43af9ap4edm43mmtq01oddj6 unique (username)
+Hibernate: alter table if exists employees add constraint FKgy4qe3dnqrm3ktd76sxp7n4c2 foreign key (department_id) references departments
+[2m2025-06-01T23:20:41.593+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-06-01T23:20:41.740+03:00[0;39m [33m WARN[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-06-01T23:20:41.855+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-06-01T23:20:41.867+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8081 (http) with context path ''
+[2m2025-06-01T23:20:41.871+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mc.l.workwise.WorkWiseApplication        [0;39m [2m:[0;39m Started WorkWiseApplication in 1.431 seconds (process running for 1.573)
+Hibernate: select u1_0.id from users u1_0 where u1_0.username=? fetch first ? rows only
+Hibernate: insert into users (active,last_login,password,role,temporary_password,username,id) values (?,?,?,?,?,?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+[2m2025-06-01T23:21:13.203+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [nio-8081-exec-1][0;39m [2m[0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2025-06-01T23:21:13.204+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [nio-8081-exec-1][0;39m [2m[0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2025-06-01T23:21:13.205+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [nio-8081-exec-1][0;39m [2m[0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2025-06-01T23:22:03.068+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [   File Watcher][0;39m [2m[0;39m[36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+[2m2025-06-01T23:22:03.084+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [       Thread-5][0;39m [2m[0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-06-01T23:22:03.089+03:00[0;39m [33m WARN[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [       Thread-5][0;39m [2m[0;39m[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m [2m:[0;39m Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+[2m2025-06-01T23:22:03.089+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [       Thread-5][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2025-06-01T23:22:03.090+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [       Thread-5][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v3.2.3)[0;39m
+
+[2m2025-06-01T23:22:03.147+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mc.l.workwise.WorkWiseApplication        [0;39m [2m:[0;39m Starting WorkWiseApplication using Java 23.0.2 with PID 6243 (/Users/galustjans13/Downloads/WorkWise 2/target/classes started by galustjans13 in /Users/galustjans13/Downloads/WorkWise 2)
+[2m2025-06-01T23:22:03.147+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mc.l.workwise.WorkWiseApplication        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-06-01T23:22:03.194+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-06-01T23:22:03.197+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 3 ms. Found 3 JPA repository interfaces.
+[2m2025-06-01T23:22:03.244+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8081 (http)
+[2m2025-06-01T23:22:03.244+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-06-01T23:22:03.244+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2m2025-06-01T23:22:03.250+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-06-01T23:22:03.250+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 102 ms
+[2m2025-06-01T23:22:03.255+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Starting...
+[2m2025-06-01T23:22:03.256+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:workwisedb user=SA
+[2m2025-06-01T23:22:03.256+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Start completed.
+[2m2025-06-01T23:22:03.256+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:workwisedb'
+[2m2025-06-01T23:22:03.265+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-06-01T23:22:03.266+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2025-06-01T23:22:03.267+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-06-01T23:22:03.268+03:00[0;39m [33m WARN[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2m2025-06-01T23:22:03.296+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table departments (id bigint generated by default as identity, name varchar(255) not null, primary key (id))
+Hibernate: create table employees (id bigint generated by default as identity, address varchar(255), birth_date date, email varchar(255), full_name varchar(255) not null, linkedin varchar(255), phone varchar(255), position varchar(255), salary numeric(10,2), department_id bigint, primary key (id))
+Hibernate: create table users (id bigint generated by default as identity, active boolean not null, last_login timestamp(6), password varchar(255) not null, role varchar(255) check (role in ('ADMIN','HR','EMPLOYEE')), temporary_password boolean not null, username varchar(255) not null, primary key (id))
+Hibernate: alter table if exists departments drop constraint if exists UK_j6cwks7xecs5jov19ro8ge3qk
+Hibernate: alter table if exists departments add constraint UK_j6cwks7xecs5jov19ro8ge3qk unique (name)
+Hibernate: alter table if exists users drop constraint if exists UK_r43af9ap4edm43mmtq01oddj6
+Hibernate: alter table if exists users add constraint UK_r43af9ap4edm43mmtq01oddj6 unique (username)
+Hibernate: alter table if exists employees add constraint FKgy4qe3dnqrm3ktd76sxp7n4c2 foreign key (department_id) references departments
+[2m2025-06-01T23:22:03.299+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-06-01T23:22:03.351+03:00[0;39m [33m WARN[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-06-01T23:22:03.395+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-06-01T23:22:03.398+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8081 (http) with context path ''
+[2m2025-06-01T23:22:03.400+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36mc.l.workwise.WorkWiseApplication        [0;39m [2m:[0;39m Started WorkWiseApplication in 0.263 seconds (process running for 83.101)
+Hibernate: select u1_0.id from users u1_0 where u1_0.username=? fetch first ? rows only
+Hibernate: insert into users (active,last_login,password,role,temporary_password,username,id) values (?,?,?,?,?,?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+Hibernate: select d1_0.id from departments d1_0 where d1_0.name=? fetch first ? rows only
+Hibernate: insert into departments (name,id) values (?,default)
+[2m2025-06-01T23:22:03.424+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [  restartedMain][0;39m [2m[0;39m[36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-06-01T23:22:43.224+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [ionShutdownHook][0;39m [2m[0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-06-01T23:22:43.228+03:00[0;39m [33m WARN[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [ionShutdownHook][0;39m [2m[0;39m[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m [2m:[0;39m Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+[2m2025-06-01T23:22:43.229+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [ionShutdownHook][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Shutdown initiated...
+[2m2025-06-01T23:22:43.229+03:00[0;39m [32m INFO[0;39m [35m6243[0;39m [2m---[0;39m [2m[WorkWise] [ionShutdownHook][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:03 min
+[INFO] Finished at: 2025-06-01T23:22:43+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.3:run (default-cli) on project WorkWise: Process terminated with exit code: 143 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

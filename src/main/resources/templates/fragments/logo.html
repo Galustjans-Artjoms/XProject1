@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <!-- Logo fragment for navigation bar -->
+    <a th:fragment="navbar-logo" class="navbar-brand" href="/">
+        <img src="/img/logo.png" alt="WorkWise" height="40">
+    </a>
+
+    <!-- Logo fragment for login page -->
+    <div th:fragment="login-logo" class="logo-container text-center mb-4">
+        <img src="/img/logo.png" alt="WorkWise" class="logo" style="max-width: 200px; height: auto;">
+    </div>
+</body>
+</html> 
